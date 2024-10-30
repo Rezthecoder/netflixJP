@@ -1,2 +1,1 @@
 # netflixjp
-# netflixJP
