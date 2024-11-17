@@ -19,6 +19,9 @@ body {
     background-color: black;
 }
 
+/* url ma image 
+height 70vh view height  vw view-width
+*/
 .main {
     background: url('./images/bg.jpg');
     height: 70vh;
@@ -28,6 +31,7 @@ body {
 
 
 }
+
 
 .main .box {
     height: 70vh;
@@ -41,7 +45,6 @@ body {
 }
 
 nav {
-    /* background-color: rgb(34, 255, 0); */
     display: flex;
     justify-content: space-between;
     max-width: 60vw;
@@ -75,7 +78,6 @@ nav button {
 
 .hero {
     height: calc(100% - 60px);
-    /* background-color: red; */
     color: var(--whitecolor);
     z-index: 10;
     position: relative;
@@ -86,13 +88,9 @@ nav button {
     gap: 20px;
     padding: 0 30px;
 
-
-    /* top: 0; */
-
 }
 
 .hero-1 {
-    /* font-family: "Poppins", sans-serif; */
     font-weight: 700;
     font-size: 48px;
 }
@@ -143,5 +141,49 @@ input:focus {
 input::placeholder {
     font-family: 'Poppins';
     font-size: 15px;
+
+}
+
+.horizontal {
+    height: 10px;
+    background: #626161;
+}
+
+
+/* section first */
+.first {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 63vw;
+    margin: auto;
+    /* margin-left: 13.5vw;
+    margin-right: 13.5vw; */
+
+}
+
+.sectionImg {
+    /* border: 1px solid #b81313; */
+    position: relative;
+
+}
+
+.sectionImg img {
+    position: relative;
+    width: 550px;
+    z-index: 1;
+
+
+
+
+}
+
+
+.sectionImg video {
+    position: absolute;
+    top: 64px;
+    right: 10px;
+
 
 }
