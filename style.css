@@ -179,11 +179,24 @@ input::placeholder {
 
 }
 
-
 .sectionImg video {
     position: absolute;
     top: 64px;
     right: 10px;
 
 
+}
+
+.tv{
+    display: flex;
+   flex-direction: column;
+}
+.span1{
+    font-size: 48px;
+    font-weight:900;
+}
+
+.span2{
+    font-size: 24px;
+    font-weight: 400;
 }
