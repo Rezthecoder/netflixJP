@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    /* color: white; */
 }
 
 
@@ -194,9 +195,34 @@ input::placeholder {
 .span1{
     font-size: 48px;
     font-weight:900;
+    color: white;
 }
 
 .span2{
     font-size: 24px;
     font-weight: 400;
+}
+
+
+.video2{
+left: 98px;
+width: 343px;
+}
+
+
+
+.faq{
+text-align: center;
+}
+
+.faqbox{
+    color: white;
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    max-width: 60vw;
+    align-items: center;
+    margin: 30px auto;
+    cursor: pointer;
+    padding: 24px;
 }
