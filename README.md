@@ -1,1 +1,1 @@
-# netflixjp new update rezi
+# netflixjp
